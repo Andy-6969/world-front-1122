@@ -29,8 +29,8 @@
   .tl { margin: 5px 14px 0; height: 26px; background: var(--rule); color: #fff; display: flex; align-items: center;
     padding: 0 8px; gap: 0; }
   .tl .lab { white-space: nowrap; font: 700 11px/1 Bahnschrift, sans-serif; color: #15171c; background: #ffcf4a; padding: 4px 6px 3px; letter-spacing: .06em; margin-right: 4px; }
-  .tl .ev { flex: 1; font: 600 11.5px/1.1 "Segoe UI", sans-serif; white-space: nowrap; padding-left: 8px; border-left: 2px solid #ffcf4a; }
-  .tl .ev b { font: 700 13px/1 Bahnschrift, sans-serif; color: #ffcf4a; margin-right: 4px; }
+  .tl .ev { flex: 1; font: 600 13px/1.1 "Segoe UI", sans-serif; white-space: nowrap; padding-left: 8px; border-left: 2px solid #ffcf4a; }
+  .tl .ev b { font: 700 14px/1 Bahnschrift, sans-serif; color: #ffcf4a; margin-right: 4px; }
 
   /* numbers */
   .nums { margin: 5px 14px 0; display: grid; grid-template-columns: repeat(6, 1fr); border-top: 2px solid var(--rule); border-bottom: 2px solid var(--rule); }
@@ -46,22 +46,22 @@
   .no { display: inline-block; width: 17px; height: 17px; border-radius: 50%; color: #fff; font: 700 11px/17px Bahnschrift, sans-serif; text-align: center; margin-right: 4px; vertical-align: middle; }
 
   /* leads */
-  .leads { margin: 7px 14px 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .leads { margin: 9px 14px 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
   .lead svg { display: block; width: 100%; height: 110px; }
   .lead .meta { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; }
-  .lead h2 { font: 700 23px/26px Georgia, serif; margin-top: 4px; letter-spacing: -.2px; }
-  .lead p { font: 400 12.5px/16px "Segoe UI", sans-serif; color: #24272e; margin-top: 4px; }
+  .lead h2 { font: 700 24px/27px Georgia, serif; margin-top: 4px; letter-spacing: -.3px; }
+  .lead p { font: 400 13px/16.5px "Segoe UI", sans-serif; color: #24272e; margin-top: 4px; }
   .src { font: 600 10px/12px "Segoe UI", sans-serif; color: #6a6d74; margin-top: 3px; }
 
   /* cards */
   .sec { margin: 8px 14px 0; display: flex; align-items: baseline; gap: 10px; border-top: 3px solid var(--rule); padding-top: 3px; }
   .sec h3 { font: 700 13px/1 Bahnschrift, sans-serif; letter-spacing: .1em; }
   .sec span { font: 600 11px/1 "Segoe UI", sans-serif; color: var(--soft); }
-  .cards { margin: 5px 14px 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 9px 10px; }
-  .card svg { display: block; width: 100%; height: 62px; }
+  .cards { margin: 5px 14px 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px 12px; }
+  .card svg { display: block; width: 100%; height: 72px; }
   .card .meta { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
-  .card h4 { font: 700 16px/18.5px Georgia, serif; margin-top: 3px; }
-  .card p { font: 400 11.5px/14px "Segoe UI", sans-serif; color: #2b2e35; margin-top: 2px; }
+  .card h4 { font: 700 18.5px/21px Georgia, serif; margin-top: 3px; }
+  .card p { font: 400 12px/15px "Segoe UI", sans-serif; color: #2b2e35; margin-top: 2px; }
 
   /* bottom */
   .bottom { margin: 6px 14px 0; display: grid; grid-template-columns: 250px 1fr; gap: 12px; border-top: 3px solid var(--rule); padding-top: 4px; }
@@ -73,7 +73,7 @@
   .also h3 { font: 700 11px/1 Bahnschrift, sans-serif; letter-spacing: .08em; }
   .also h3 b { color: var(--me); }
   .also ul { list-style: none; columns: 2; column-gap: 14px; margin-top: 3px; }
-  .also li { font: 400 11.3px/13.4px "Segoe UI", sans-serif; white-space: nowrap; overflow: hidden; }
+  .also li { font: 400 11.8px/14px "Segoe UI", sans-serif; white-space: nowrap; overflow: hidden; }
   .also li b { font-weight: 700; }
   .also li em { font-style: normal; color: #7a7d84; font-size: 9.5px; }
 
@@ -96,19 +96,10 @@
   <div class="ev"><b>00:00</b>Khartoum drones</div>
   <div class="ev"><b>Dawn</b>Benghazi ship hit</div>
   <div class="ev"><b>c.05:30</b>Verstappen wins</div>
-  <div class="ev"><b>c.14:00</b>Márquez's 8th title</div>
   <div class="ev"><b>c.16:00</b>COP31: no deal</div>
   <div class="ev"><b>c.19:00</b>Alcaraz wins</div>
 </div>
 
-<div class="nums">
-  <div class="num"><div class="n" style="color:var(--eu)">186</div><div class="t">drones at Ukraine; 161 downed</div></div>
-  <div class="num"><div class="n" style="color:var(--am)">258</div><div class="t">House seats for the Democrats</div></div>
-  <div class="num"><div class="n" style="color:var(--gl)">+2</div><div class="t">days of overtime at COP31</div></div>
-  <div class="num"><div class="n" style="color:var(--as)">98.79%</div><div class="t">Hong Kong vote turnout</div></div>
-  <div class="num"><div class="n" style="color:var(--oc)">720/9</div><div class="t">India's record total in NZ</div></div>
-  <div class="num"><div class="n" style="color:var(--me)">8</div><div class="t">MotoGP titles for Márquez</div></div>
-</div>
 
 <div class="leads">
   <!-- 1 COP31 -->
@@ -205,11 +196,11 @@
   </div>
 </div>
 
-<div class="sec"><h3>THE DAY IN TEN</h3><span>more of Sunday's biggest stories, across six regions</span></div>
+<div class="sec"><h3>THE DAY IN EIGHT MORE</h3><span>Sunday's other big stories, across six regions</span></div>
 <div class="cards">
   <!-- 4 Democrats -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="66" fill="#e9e4f2"/>
       {{SEAT_ARC}}
       <text x="185" y="40" font-family="Bahnschrift" font-weight="700" font-size="36" fill="#3a2a66" text-anchor="end">258</text>
@@ -221,7 +212,7 @@
   </div>
   <!-- 5 Hong Kong -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="66" fill="#dcefe9"/>
       <rect x="8" y="30" width="40" height="30" fill="#17806a"/><rect x="17" y="26" width="22" height="5" fill="#0d4f41"/>
       <path d="M19 8 L37 8 L37 28 L19 28 Z" fill="#fff" stroke="#0d4f41" stroke-width="2"/><path d="M22 17 l4 5 l8 -9" stroke="#b3261e" stroke-width="3" fill="none"/>
@@ -232,36 +223,22 @@
     <h4>Hong Kong elects its Election Committee</h4>
     <p>5,640 voters, provisional turnout</p>
   </div>
-  <!-- 6 Seoul -->
-  <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
-      <rect width="191" height="70" fill="#e6ecf6"/>
-      <rect x="12" y="10" width="56" height="54" fill="#fff" stroke="#15171c" stroke-width="2"/>
-      <g fill="#a7afbd"><rect x="18" y="18" width="40" height="3"/><rect x="18" y="26" width="34" height="3"/><rect x="18" y="34" width="40" height="3"/></g>
-      <rect x="34" y="40" width="30" height="20" rx="3" fill="#17806a"/><text x="49" y="55" font-family="Bahnschrift" font-weight="700" font-size="13" fill="#fff" text-anchor="middle">AI</text>
-      <text x="183" y="38" font-family="Bahnschrift" font-weight="700" font-size="26" fill="#15171c" text-anchor="end">QUITS</text>
-      <text x="183" y="58" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#b3261e" text-anchor="end">EXAM CHEATING ROW</text>
-    </svg>
-    <div class="meta"><span class="kick" style="color:var(--as)"><span class="no" style="background:var(--as)">6</span>Seoul</span><span class="tag t-ok">CONFIRMED</span></div>
-    <h4>Minister quits over AI exam cheating</h4>
-    <p>Choi Kyo-jin out; Lee accepts</p>
-  </div>
   <!-- 7 Banten -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="70" fill="#3b2b2b"/>
       <rect x="8" y="30" width="80" height="40" fill="#6a5a55"/><path d="M8 30 L28 18 L28 30 L48 18 L48 30 L68 18 L68 30 L88 18 L88 30 Z" fill="#6a5a55"/>
       <path d="M14 34 L22 8 L30 30 L40 2 L48 30 L60 10 L66 34 Z" fill="#ff7a1a"/><path d="M26 34 L32 18 L38 32 L46 16 L52 34 Z" fill="#ffd34a"/>
       <text x="183" y="40" font-family="Bahnschrift" font-weight="700" font-size="34" fill="#ffd34a" text-anchor="end">36</text>
       <text x="183" y="58" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#fff" text-anchor="end">MISSING · 3 DEAD</text>
     </svg>
-    <div class="meta"><span class="kick" style="color:var(--as)"><span class="no" style="background:var(--as)">7</span>Banten</span><span class="tag t-ok">CONFIRMED</span></div>
+    <div class="meta"><span class="kick" style="color:var(--as)"><span class="no" style="background:var(--as)">6</span>Banten, Indonesia</span><span class="tag t-ok">CONFIRMED</span></div>
     <h4>Indonesia sweets factory fire: 36 missing</h4>
     <p>300 were inside the plant</p>
   </div>
   <!-- 8 Khartoum -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="70" fill="#1b2236"/>
       <g fill="#3c465e"><rect x="4" y="40" width="16" height="26"/><rect x="22" y="32" width="14" height="34"/><rect x="38" y="44" width="22" height="22"/></g>
       <rect x="40" y="34" width="18" height="10" fill="#4f8fd6"/><text x="49" y="42" font-family="Bahnschrift" font-weight="700" font-size="8" fill="#fff" text-anchor="middle">UN</text>
@@ -270,14 +247,14 @@
       <text x="183" y="40" font-family="Bahnschrift" font-weight="700" font-size="34" fill="#fff" text-anchor="end">4</text>
       <text x="183" y="58" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#f4c542" text-anchor="end">KILLED · UN SITE HIT</text>
     </svg>
-    <div class="meta"><span class="kick" style="color:var(--af)"><span class="no" style="background:var(--af)">8</span>Khartoum</span><span class="tag t-rep">REPORTED</span></div>
+    <div class="meta"><span class="kick" style="color:var(--af)"><span class="no" style="background:var(--af)">7</span>Khartoum, Sudan</span><span class="tag t-rep">REPORTED</span></div>
     <h4>Night drone raid on Khartoum kills four</h4>
     <p>Blamed on the RSF; airport targeted</p>
   </div>
 
   <!-- 9 Ituri -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="70" fill="#e3efe0"/>
       <rect y="56" width="191" height="14" fill="#8db07f"/>
       <rect x="8" y="20" width="54" height="38" fill="#fff" stroke="#15171c" stroke-width="2"/>
@@ -286,13 +263,13 @@
       <text x="185" y="38" font-family="Bahnschrift" font-weight="700" font-size="32" fill="#15171c" text-anchor="end">24 h+</text>
       <text x="185" y="56" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#b3261e" text-anchor="end">IN A MATERNITY WARD</text>
     </svg>
-    <div class="meta"><span class="kick" style="color:var(--af)"><span class="no" style="background:var(--af)">9</span>Ituri, DR Congo</span><span class="tag t-off">OFFICIAL</span></div>
+    <div class="meta"><span class="kick" style="color:var(--af)"><span class="no" style="background:var(--af)">8</span>Ituri, DR Congo</span><span class="tag t-off">OFFICIAL</span></div>
     <h4>Fighting traps Ebola medics in a hospital</h4>
     <p>WHO's Tedros asks for a safe exit</p>
   </div>
   <!-- 10 Herzliya -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="70" fill="#f1e2df"/>
       <rect x="6" y="40" width="62" height="7" fill="#6a4a3a"/><rect x="12" y="47" width="5" height="16" fill="#6a4a3a"/><rect x="57" y="47" width="5" height="16" fill="#6a4a3a"/>
       <circle cx="16" cy="20" r="7" fill="#2459a6"/><rect x="9" y="27" width="14" height="13" fill="#2459a6"/>
@@ -301,49 +278,34 @@
       <text x="185" y="36" font-family="Bahnschrift" font-weight="700" font-size="23" fill="#b3261e" text-anchor="end">NO UNITY</text>
       <text x="185" y="56" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#15171c" text-anchor="end">SPLIT OVER BEN-GVIR</text>
     </svg>
-    <div class="meta"><span class="kick" style="color:var(--me)"><span class="no" style="background:var(--me)">10</span>Herzliya, Israel</span><span class="tag t-rep">REPORTED</span></div>
+    <div class="meta"><span class="kick" style="color:var(--me)"><span class="no" style="background:var(--me)">9</span>Herzliya, Israel</span><span class="tag t-rep">REPORTED</span></div>
     <h4>Netanyahu–Eisenkot unity talks end, no deal</h4>
     <p>Likud and Yashar to meet again</p>
   </div>
   <!-- 11 Turin -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="70" fill="#1f4f8a"/>
       <rect x="6" y="8" width="62" height="48" fill="#2f6db5" stroke="#fff" stroke-width="2"/><path d="M37 8 L37 56 M6 32 L68 32" stroke="#fff" stroke-width="2"/>
       <circle cx="54" cy="20" r="6" fill="#d9f24a"/>
       <text x="183" y="38" font-family="Bahnschrift" font-weight="700" font-size="25" fill="#fff" text-anchor="end">6-2 7-6</text>
       <text x="183" y="58" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#d9f24a" text-anchor="end">BEATS WORLD No 1</text>
     </svg>
-    <div class="meta"><span class="kick" style="color:var(--eu)"><span class="no" style="background:var(--eu)">11</span>Turin, Italy</span><span class="tag t-ok">CONFIRMED</span></div>
+    <div class="meta"><span class="kick" style="color:var(--eu)"><span class="no" style="background:var(--eu)">10</span>Turin, Italy</span><span class="tag t-ok">CONFIRMED</span></div>
     <h4>Alcaraz wins his first ATP Finals title</h4>
     <p>Ends 2026 on 14 straight wins</p>
   </div>
-  <!-- 12 Portimao -->
-  <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
-      <rect width="191" height="70" fill="#f3e3c8"/>
-      <rect y="52" width="191" height="18" fill="#5a5a5f"/><path d="M0 60 L191 60" stroke="#fff" stroke-width="2" stroke-dasharray="10 8"/>
-      <circle cx="22" cy="50" r="10" fill="#15171c"/><circle cx="72" cy="50" r="10" fill="#15171c"/>
-      <path d="M22 50 L40 34 L66 34 L72 50 Z" fill="#c8102e"/><circle cx="50" cy="24" r="8" fill="#c8102e"/><rect x="42" y="28" width="16" height="10" fill="#15171c"/>
-      <rect x="112" y="0" width="79" height="52" fill="#f3e3c8"/>
-      <text x="150" y="38" font-family="Bahnschrift" font-weight="700" font-size="40" fill="#c8102e" text-anchor="middle">8</text>
-      <text x="150" y="50" font-family="Bahnschrift" font-weight="700" font-size="10" fill="#15171c" text-anchor="middle">WORLD TITLES</text>
-    </svg>
-    <div class="meta"><span class="kick" style="color:var(--eu)"><span class="no" style="background:var(--eu)">12</span>Portimão</span><span class="tag t-ok">CONFIRMED</span></div>
-    <h4>Márquez seals eighth MotoGP world title</h4>
-    <p>Level with Agostini; Bezzecchi wins</p>
-  </div>
   <!-- 13 Wellington -->
   <div class="card">
-    <svg viewBox="0 0 191 62" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 191 62" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <rect width="191" height="70" fill="#cfe7c6"/>
       <ellipse cx="96" cy="70" rx="110" ry="22" fill="#86b96e"/>
       <g transform="rotate(-35 40 40)"><rect x="34" y="6" width="12" height="50" rx="3" fill="#e2c48a" stroke="#8a6a30" stroke-width="2"/><rect x="37" y="56" width="6" height="14" fill="#2b2b2b"/></g>
       <circle cx="74" cy="22" r="6" fill="#b3261e"/>
       <text x="183" y="42" font-family="Bahnschrift" font-weight="700" font-size="32" fill="#15171c" text-anchor="end">720/9</text>
-      <text x="183" y="60" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#15171c" text-anchor="end">DECLARED · RECORD</text>
+      <text x="183" y="57" font-family="Bahnschrift" font-weight="700" font-size="11" fill="#15171c" text-anchor="end">DECLARED · RECORD</text>
     </svg>
-    <div class="meta"><span class="kick" style="color:var(--oc)"><span class="no" style="background:var(--oc)">13</span>Wellington, NZ</span><span class="tag t-off">OFFICIAL</span></div>
+    <div class="meta"><span class="kick" style="color:var(--oc)"><span class="no" style="background:var(--oc)">11</span>Wellington, NZ</span><span class="tag t-off">OFFICIAL</span></div>
     <h4>India post the biggest Test total made in NZ</h4>
     <p>Declared 720/9 at the Basin Reserve</p>
   </div>
@@ -363,19 +325,21 @@
     </div>
   </div>
   <div class="also">
-    <h3>ALSO ON SUNDAY 22 NOVEMBER — <b>22 MORE STORIES</b></h3>
+    <h3>ALSO ON SUNDAY 22 NOVEMBER — <b>24 MORE STORIES</b></h3>
     <ul>
       <li><b style="color:var(--eu)">Vyshneve, Ukraine:</b> drone hits supermarket; 3 dead, 15 hurt <em>KI</em></li>
       <li><b style="color:var(--eu)">Odesa:</b> grid badly hit; schools go online for a week <em>Ukrenergo</em></li>
       <li><b style="color:var(--eu)">Poland:</b> Kh-101 missile debris found at 3 sites <em>prosecutors</em></li>
       <li><b style="color:var(--eu)">Geneva:</b> youngest-ever world chess title match opens <em>AJ</em></li>
       <li><b style="color:var(--eu)">Liverpool:</b> 4-0 over 10-man Man United, Pochettino's debut <em>AJ</em></li>
+      <li><b style="color:var(--eu)">Portimão:</b> Márquez seals 8th MotoGP title, level with Agostini <em>AP</em></li>
       <li><b style="color:var(--af)">Benghazi:</b> a second, Malta-flagged ship also hit <em>Reuters</em></li>
       <li><b style="color:var(--me)">Bahrain:</b> says Iranian strike wounded two <em>MEE</em></li>
       <li><b style="color:var(--me)">Iran:</b> shows dual-missile launcher <span class="tag t-claim" style="font-size:8px;padding:1px 3px">CLAIM</span> <em>state TV</em></li>
       <li><b style="color:var(--me)">West Bank:</b> settlers burn 12 cars in 3 villages <em>Wafa</em></li>
       <li><b style="color:var(--me)">Riyadh:</b> Saudis down Houthi drone; Sanaa strike hurts 6 <em>AJ</em></li>
       <li><b style="color:var(--me)">Hormuz:</b> Briton Lewis Pugh ends 15 km war-zone swim <em>Guardian</em></li>
+      <li><b style="color:var(--as)">Seoul:</b> education minister quits over AI exam cheating <em>AFP</em></li>
       <li><b style="color:var(--as)">Gazipur, Bangladesh:</b> wage protesters clash with police <em>TBS</em></li>
       <li><b style="color:var(--as)">Rajasthan, India:</b> two road crashes kill 12 <em>Xinhua</em></li>
       <li><b style="color:var(--as)">Taipei:</b> HK's <i>We Are Born Good</i> wins Golden Horse <em>AFP</em></li>

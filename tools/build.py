@@ -26,18 +26,15 @@ PINS = {
     3: (30.4, 50.8, "eu"),     # Dymer, Kyiv region
     4: (-77.0, 38.9, "am"),    # Washington
     5: (114.17, 22.3, "as"),   # Hong Kong
-    6: (126.98, 37.57, "as"),  # Seoul
-    7: (106.15, -6.12, "as"),  # Serang, Banten
-    8: (32.53, 15.5, "af"),    # Khartoum
-    9: (30.25, 1.56, "af"),    # Ituri
-    10: (34.84, 32.16, "me"),  # Herzliya
-    11: (7.68, 45.07, "eu"),   # Turin
-    12: (-8.54, 37.14, "eu"),  # Portimao
-    13: (174.78, -41.29, "oc"),  # Wellington
+    6: (106.15, -6.12, "as"),  # Serang, Banten
+    7: (32.53, 15.5, "af"),    # Khartoum
+    8: (30.25, 1.56, "af"),    # Ituri
+    9: (34.84, 32.16, "me"),   # Herzliya
+    10: (7.68, 45.07, "eu"),   # Turin
+    11: (174.78, -41.29, "oc"),  # Wellington
 }
 # small nudges (px) so pins in crowded spots do not cover each other
-NUDGE = {1: (2, 6), 2: (-7, 2), 3: (3, -5), 10: (6, 5), 11: (-1, -7), 12: (-6, 2), 8: (3, 3), 9: (-2, 5),
-         5: (-4, 4), 6: (2, -4)}
+NUDGE = {1: (2, 6), 2: (-7, 2), 3: (3, -5), 9: (6, 5), 10: (-4, -6), 7: (3, 3), 8: (-2, 5), 5: (-4, 4)}
 
 
 def rings(geom):

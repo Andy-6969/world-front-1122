@@ -11,12 +11,14 @@ bounty "Sum up 22 November's world news in one image".
 
 Three leads: COP31 in Antalya ends with no agreed text after two days of overtime; sea drones sink the
 Russian corvette Merkury in Benghazi, Libya; and Russia sends 186 drones at Ukraine, tearing open a block
-of flats in Dymer. Ten drawn cards follow (Democrats reach 258 House seats, Hong Kong's Election
-Committee vote, Seoul's education minister quits over AI exam cheating, the Banten sweets-factory fire,
-drones over Khartoum, Ebola medics trapped in Ituri, Netanyahu–Eisenkot talks fail, Alcaraz in Turin,
-Márquez's eighth title, India's 720/9 in Wellington), then 22 short items, a UTC timeline, a numbers
-strip, a world map keyed to the story numbers and a date check naming what was left out because it was
-first reported before Sunday or came after it.
+of flats in Dymer. Eight drawn cards follow, each with its number in large type (Democrats reach 258
+House seats, Hong Kong's Election Committee vote, the Banten sweets-factory fire, drones over Khartoum,
+Ebola medics trapped in Ituri, Netanyahu–Eisenkot talks fail, Alcaraz in Turin, India's 720/9 in
+Wellington), then 24 short items, a UTC timeline, a world map keyed to the story numbers and a date
+check naming what was left out because it was first reported before Sunday or came after it.
+
+v2 trades the numbers strip and two small cards for four wider cards per row and larger type, so each
+story still reads when the page is shrunk to about 300 px.
 
 Each story carries a tag: CONFIRMED (two or more outlets), OFFICIAL (on the record), REPORTED (one
 outlet) or CLAIM (one side's word). [docs/sources.md](docs/sources.md) lists the outlet behind every line.
